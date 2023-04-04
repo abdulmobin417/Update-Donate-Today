@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Montserrat:wght@800&family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.top-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/donation0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 930px;
+  text-align: center;
+  color: white;
+  margin-bottom: 150px;
+}
+.top-banner h1 {
+  margin: auto;
+  padding-top: 12%;
+  font-size: 80px;
+  font-weight: 600;
+  width: 60%;
+  padding-bottom: 2%;
+}
+.top-banner p {
+  margin: auto;
+  font-size: 22px;
+  font-weight: 400;
+  width: 45%;
+  padding-bottom: 3%;
+}
+.donate-btn {
+  background-color: rgb(255, 89, 89);
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.donation {
+  margin: auto;
+  width: 48%;
+  text-align: center;
+}
+.donation h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.donate-details {
+  font-size: 23px;
+  color: dimgray;
+}
+.donate-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donate-amount p {
+  font-size: 38px;
+  font-weight: 600;
+  color: dimgray;
+  margin-right: 25px;
+  background-color: rgba(128, 128, 128, 0.073);
+  border: 1px solid rgba(128, 128, 128, 0.015);
+  padding: 50px 25px;
+  border-radius: 10px;
+}
+#special {
+  color: tomato;
+  background-color: rgba(255, 99, 71, 0.089);
+  border: 3px solid rgb(255, 99, 71);
+}
+#other-amount {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.318);
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 25px;
+  margin-left: -5%;
+}
+::placeholder {
+  color: rgba(128, 128, 128, 0.545);
+  opacity: 1;
+  /* margin-left: 90px; */
+}
+.donation button {
+  margin-bottom: 100px;
+}
+.donate-plan {
+  margin-bottom: 150px;
+}
+.donate-plan-header {
+  font-size: 58px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.donate-plan-details {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 23px;
+  color: dimgray;
+  margin-bottom: 60px;
+}
+.donate-plan-items {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+.plan-item {
+  margin-right: 35px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+#item-1 {
+  background-color: rgb(237, 245, 246);
+}
+#item-2 {
+  background-color: rgb(255, 238, 238);
+}
+#item-3 {
+  background-color: rgb(255, 244, 214);
+}
+.plan-item img {
+  width: 70px;
+}
+.plan-item h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.plan-item p {
+  width: 95%;
+  font-size: 22px;
+  font-weight: 400;
+  color: dimgray;
+}
+.blog-section {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+.blog-section img {
+  width: 42%;
+  height: 600px;
+  border-radius: 10px;
+}
+.half-side {
+  width: 45%;
+  margin-right: 60px;
+}
+.blog-section h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.blog-section p {
+  font-size: 25px;
+  font-weight: 400;
+  color: dimgray;
+}
+.second-half {
+  width: 45%;
+  margin-left: 130px;
+}
+.get-updates {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.get-updates h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.get-updates p {
+  margin: auto;
+  width: 80%;
+  font-size: 25px;
+  font-weight: 400;
+  color: dimgray;
+  margin-bottom: 50px;
+}
+.email-section {
+  background-color: rgb(255, 244, 214);
+  padding: 100px 50px;
+  margin-bottom: 150px;
+}
+#email {
+  border: none;
+  background-color: rgb(217, 217, 217);
+  font-size: 20px;
+  font-weight: 900px;
+  padding: 18px 55px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 0;
+}
+#email::placeholder {
+  color: rgba(170, 159, 159);
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 900px;
+}
+.email-section button {
+  background-color: rgb(255, 89, 89);
+  color: white;
+  padding: 18px 50px;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: -5px;
+}
+footer {
+  margin-top: 150px;
+  background-color: #0b0d17;
+}
+.footer-section {
+  width: 100%;
+  padding: 1% 0;
+  text-align: center;
+}
+.footer-section h3 {
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+  font-weight: 500;
+  font-size: 50px;
+}
+.footer-section p {
+  color: #d9dbe1;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
